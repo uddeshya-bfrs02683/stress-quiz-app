@@ -8,7 +8,6 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 5173,
   },
-  base: "/stress-quiz-app",
   plugins: [react()],
   resolve: {
     alias: {

@@ -1,0 +1,7 @@
+services:
+  web:
+    build:
+      context: .
+    restart: always
+    ports:
+      - 3001:80
