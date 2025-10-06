@@ -10,7 +10,7 @@ export interface StressAssessmentData {
 export const submitToGoogleSheets = async (data: StressAssessmentData) => {
   try {
     const response = await fetch(
-      "http://localhost:5678/webhook/c78f633e-9b03-4773-97b5-89094d7df32d",
+      "https://n8n.shiprocket.in/webhook/682c48ff-31ef-402f-9084-2f317fec7a31",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
